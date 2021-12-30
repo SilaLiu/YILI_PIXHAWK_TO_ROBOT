@@ -1,13 +1,13 @@
-------------------------------------------------------------
--------- P_Brake_StateMachine ArduPilot Lua script ---------
---                                                        --
--- 		This script is a function that detects when       --
--- 	the vehicle reaches the tree planting point and gives --
---	the robot a signal in place to return.                --
---                                                        --
---------------------- Teddy -- Nov 2021 --------------------
---https://ardupilot.org/rover/docs/common-lua-scripts.html--
-------------------------------------------------------------
+------------------------------------------------------------------
+-------- P_Brake_StateMachine ArduPilot Lua script ---------------
+--                                                        	--
+-- 	This script is a function that detects when   	  	--
+-- 	the vehicle reaches the tree planting point and gives 	--
+--	the robot a signal in place to return.                	--
+--                                                        	--
+--------------------- Teddy -- Nov 2021 --------------------------
+--https://ardupilot.org/rover/docs/common-lua-scripts.html--------
+------------------------------------------------------------------
 
 --------    USER EDITABLE GLOBALS  --------
 local ROCKER_MAX_PWM 	 = 1920 --摇杆最大值
